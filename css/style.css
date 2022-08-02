@@ -1,0 +1,493 @@
+
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    position: relative;
+    min-height:100vh;
+    background-color: lightgray;
+
+}
+
+
+    
+/* encabezado de pagina */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    background-color: pink;
+}
+
+.header-menu{
+    list-style-type:none;
+
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.header-menu li{
+    display: inline-block;
+    margin: 2rem 2rem; 
+    
+
+}
+
+/*contenido index*/
+
+.main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem;
+        width: 100%;
+    }
+
+.main-content{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.index-tittle{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.section{
+    text-align: center;
+    margin:2rem;
+   
+}
+
+.portada-index{
+    width: 70%;
+    height: 70%;
+
+}
+
+/* pie de pagina*/
+
+.footer{
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+background-color: pink;
+margin-top: 9rem;
+width: 100%;
+text-align: center;
+
+
+}
+
+
+/* Portada Index */
+
+.perro1{
+    width: 60%;
+    height: 40%;
+    margin-bottom: 2rem;
+    border: 2px solid gray;
+    
+}
+
+
+.main-tittle{
+    font-size: 50px;
+    text-align:center;
+    margin: 2rem;
+}
+
+
+/* html gatos */
+
+#cat-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+}
+
+
+.catfoods-container{
+   width: 100%;
+}
+
+.catfoods-picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+
+.catfoods{
+    height: 70%;
+    width: 70%;
+   }
+
+.catfood-tittles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 1rem;
+
+}
+
+/* html perros */
+
+#dog-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.photos-dog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+
+
+
+.dogfood-tittles{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.dogpicture{
+    height: 70%;
+    width: 70%;
+
+   
+}
+
+
+/*Servicios Mascota */
+ 
+#services-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    padding: 1rem;
+
+}
+
+p{
+    font-size: x-large;
+    font-style: oblique;
+    margin: 2rem 1.5rem;
+    color: black;
+}
+
+.services{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.services-pic{
+    border-radius: 15px;
+    height: 80%;
+    width: 80%;
+    margin-left: 5rem;
+}
+
+
+
+
+#form{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.form-tittle{
+
+    font-size: 25px;
+    margin-bottom: 1rem;
+    
+}
+
+.inputs{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: 1px solid darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton{
+    
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+
+.dog-container{
+
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+
+@media only screen and ( max-width: 480px){
+ 
+    
+    body{
+        background-color: darkgray;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+
+
+    .index-container{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(211, 211, 211, 0.466);
+    
+    }
+    
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+        background-color: violet;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        text-align: center;
+        
+    }
+    
+    .header-menu{
+        list-style-type: none;
+
+    }
+    
+    .header-menu li{
+        display:inline-block;
+        margin: 1rem 1rem;
+    }
+    
+    /* portada y contenido index  vista mobile*/
+    
+    .index-tittle{
+        font-size: 2.5rem;
+    }
+
+    .portada-index{
+        width: 70%;
+        height: 70%;
+        
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem;
+        width: 100%;
+        text-align: center;    
+    }
+    
+        
+    p{
+        margin-top: 1rem;
+        font-size: 2rem;
+
+    }
+    
+    a{
+        font-size: 1.8rem;
+
+    }
+   
+    h2{
+        font-size: 2.5rem;
+
+    }
+        
+   /* Media queries html perros vista mobile */
+ 
+.dog-container{
+    width: 100%;
+}
+
+.dogfood-tittle{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photos-dog{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;    
+    align-items: center;
+    margin: auto;
+}
+    
+.dogpicture{
+    width: 50%;
+    height: 50%;
+
+}
+
+/* vista html-gatos mobile*/
+
+#cat-tittle{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.catfoods-container{
+  width: 100%;
+}
+
+
+.catfoods-picture{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.catfood-tittles{
+
+    font-size: 2.5rem;
+
+}
+
+.catfoods{
+    width: 50%;
+    height: 50%;
+}
+
+/* Vista mobile html Servicios */
+
+.services-container{
+    width:100%
+    
+
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.services-pic{
+    width: 70%;
+    height: 70%;
+    border-radius: 20%;
+    margin: auto;
+
+}
+
+/* Vista mobile formulario */
+
+#form{
+    width: 90%;
+    height: 100%;
+    margin-top: 8rem;
+}
+
+.form-tittle{
+    font-size: 2rem;
+
+}
+
+.inputs{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.boton{
+    font-size: 1.5rem;
+}
+
+
+/* pie de pagina mobile */
+    
+ .footer{
+    background-color: violet;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 13rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.p-footer{
+    font-size: 1.6rem;
+}
+
+}
+
