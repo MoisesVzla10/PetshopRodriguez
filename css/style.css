@@ -27,7 +27,6 @@ body{
     height: 100%;
     background-color: pink;
 
-    
 }
 
 .header-menu{
@@ -129,36 +128,37 @@ text-align: center;
     font-size: 3rem;
 }
 
-.catfoods-container{
-   width: 100%;
+#carouselExampleControls{
+background-color: pink;
+border: 2px solid black;
+width: 70%;
+margin: auto;
+padding: 3rem
 }
 
-.catfoods-picture{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 2px;
-    margin-left: 10rem;
-    margin-top: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 70%;
-    height: 100%;
-}
-
-.catfoods{
-    height: 70%;
-    width: 70%;
-   }
-
-.catfood-tittles{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    margin-top: 1rem;
+.carousel-inner{
+text-align: center;
+overflow: hidden;
+width: 100%;
 
 }
+
+.t-carousel{
+    margin:1rem;
+}
+.p-carousel{
+    color: black;
+    margin-top: auto;
+    
+}
+
+#purinas{
+    margin:auto;
+    width: auto;
+    height:500px;
+
+}
+
 
 /* html perros */
 
@@ -167,34 +167,6 @@ text-align: center;
     margin: 2rem 2rem;
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.photos-dog{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 2px;
-    margin-left: 10rem;
-    margin-top: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    width: 70%;
-    height: 100%;
-}
-
-.dogfood-tittles{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-top: 1rem;
-    
-}
-
-.dogpicture{
-    height: 70%;
-    width: 70%;
-
 }
 
 /*Servicios Mascota */
@@ -275,13 +247,6 @@ p{
     overflow: hidden;
 }
 
-.img-fluid{
-   border-top: 2px solid black;
-   border-left: 2px solid black;
-   border-right: 2px solid black; 
-   border-bottom: 2px solid black;
-   border-radius: 2rem;
-}
 
 @media only screen and ( max-width: 480px){
  
@@ -307,7 +272,7 @@ p{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         width: 100%;
-        background-color: violet;
+        background-color: pink;
         border-top: 2px solid black;
         border-bottom: 2px solid black;
         text-align: center;
@@ -390,32 +355,6 @@ p{
     font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
 
-}
-
-.catfoods-container{
-  width: 100%;
-}
-
-
-.catfoods-picture{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-}
-
-.catfood-tittles{
-
-    font-size: 2.5rem;
-
-}
-
-.catfoods{
-    width: 50%;
-    height: 50%;
 }
 
 /* Vista mobile html Servicios */
