@@ -13,14 +13,15 @@ body{
     position: relative;
     min-height:100vh;
     background-color: lightgray;
-
 }
 
 /* encabezado de pagina */
 
 .header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 100%;
@@ -29,15 +30,21 @@ body{
     text-align: center;
 }
 
+.logo{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 60%;
+   
+}
+
 .header-menu{
     list-style-type:none;
     
 }
 
-
 a:hover{
-    text-decoration:none;
-    color:black;
+    color:white;
     font-style: italic;
     font-size: 1.5rem;
 
@@ -52,10 +59,22 @@ a{
 .header-menu li{
     display: inline-block;
     margin: 1.5rem 1.5rem; 
+    
    
 }
 
 /*contenido index*/
+
+.portada{
+    height: 75%;
+    width: 70%;
+    border-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-bottom: 5rem;
+}
 
 .main-container{
         display: flex;
@@ -87,28 +106,16 @@ a{
    
 }
 
-.portada-index{
-    width: 70%;
-    height: 70%;
-
-}
-
-
-
-/* Portada Index */
-
-.perro1{
-    width: 60%;
-    height: 40%;
-    margin-bottom: 2rem;
-    border: 2px solid gray;
-    
-}
 
 .main-tittle{
     font-size: 50px;
     text-align:center;
     margin: 2rem;
+}
+
+.p-contact{
+    text-decoration:underline;
+    color: white;
 }
 
 /* html gatos */
@@ -134,6 +141,7 @@ width: 100%;
 
 }
 
+
 .t-carousel{
     margin:1rem;
 }
@@ -149,7 +157,6 @@ width: 100%;
     height:500px;
 
 }
-
 
 /* html perros */
 
@@ -181,12 +188,24 @@ width: 100%;
     margin-top: 1rem;
 }
 
+.dogpicture:hover{
+    height: 75%;
+    width: 75%;
+}
+
 .dogpicture{
     height: 70%;
     width: 70%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid  black;
+    border-right: 2px solid black;
+    padding: 5px;
     box-shadow: 0px 15px 10px;
     cursor: pointer;
+    object-fit: cover;
 }
+    
 
 /*Servicios Mascota */
  
@@ -300,7 +319,10 @@ p{
         
     }
     
-    
+    .logo{
+        width:40%;
+        height:30%;
+    }
     
     .header-menu li{
         display: flex;
