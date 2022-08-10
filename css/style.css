@@ -60,7 +60,6 @@ a{
     display: inline-block;
     margin: 1.5rem 1.5rem; 
     
-   
 }
 
 /*contenido index*/
@@ -99,13 +98,11 @@ a{
 
 }
 
-
 .section{
     text-align: center;
     margin:2rem;
    
 }
-
 
 .main-tittle{
     font-size: 50px;
@@ -140,7 +137,6 @@ overflow: hidden;
 width: 100%;
 
 }
-
 
 .t-carousel{
     margin:1rem;
