@@ -26,7 +26,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: pink;
-
+    text-align: center;
 }
 
 .header-menu{
@@ -37,7 +37,7 @@ body{
 
 a:hover{
     text-decoration:none;
-    color: white;
+    color:black;
     font-style: italic;
     font-size: 1.5rem;
 
@@ -45,7 +45,7 @@ a:hover{
 
 a{
     text-decoration: none;
-    color: gray;
+    color: black;
    
 }
 
@@ -64,6 +64,7 @@ a{
         align-items: center;
         margin: 0rem 0rem;
         width: 100%;
+        text-align: center;
     }
 
 .main-content{
@@ -92,17 +93,7 @@ a{
 
 }
 
-/* pie de pagina*/
 
-.footer{
-border-top: 2px solid black;
-border-bottom: 2px solid black;
-background-color: pink;
-margin-top: 11rem;
-width: 100%;
-text-align: center;
-
-}
 
 /* Portada Index */
 
@@ -169,6 +160,34 @@ width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.photos-dog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.dogfood-tittles{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.dogpicture{
+    height: 70%;
+    width: 70%;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
 /*Servicios Mascota */
  
 #services-tittle{
@@ -215,6 +234,7 @@ p{
     margin-top: 100px;
     border-radius: 10px;
     background-color: darkgray;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 
 }
 
@@ -235,7 +255,6 @@ p{
 }
 
 .boton{
-    
     width: 100%;
     background-color: whitesmoke;
     padding: 5px;
@@ -243,21 +262,25 @@ p{
     font-size: 18px;
 }
 
+/* pie de pagina*/
 
-.dog-container{
+.footer{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: pink;
+    margin-top: 11rem;
     width: 100%;
-    margin:0 auto;
-    overflow: hidden;
-}
+    text-align: center;
+    
+    }
 
 
 @media only screen and ( max-width: 480px){
  
     
     body{
-        background-color: darkgray;
         font-size: 2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
     }
     
 
@@ -274,42 +297,25 @@ p{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        width: 100%;
-        background-color: pink;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        text-align: center;
         
     }
     
-    .header-menu{
-        list-style-type: none;
-
-    }
+    
     
     .header-menu li{
-        display:inline-block;
+        display: flex;
+        flex-direction: row;
         margin: 1rem 1rem;
+        justify-content: center;
     }
     
-    /* portada y contenido index  vista mobile*/
+    /* contenido index  vista mobile*/
     
     .index-tittle{
         font-size: 2.5rem;
     }
 
-    
-    .main-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0rem 0rem;
-        width: 100%;
-        text-align: center;    
-    }
-    
-        
+         
     p{
         margin-top: 1rem;
         font-size: 2rem;
@@ -360,19 +366,26 @@ p{
 
 }
 
+.p-carousel{
+    font-size: 1.2rem;
+}
+
+ h3{
+ font-size: 2rem;
+
+ }
+
 /* Vista mobile html Servicios */
 
 .services-container{
     width:100%
     
-
 }
 
 .services{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-content: center;
     align-items: center;
     margin: auto;
     text-align: center;
@@ -389,8 +402,8 @@ p{
 /* Vista mobile formulario */
 
 #form{
-    width: 90%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     margin-top: 8rem;
 }
 
@@ -400,9 +413,8 @@ p{
 }
 
 .inputs{
-    width: 100%;
     height: 100%;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
 }
 
 .boton{
