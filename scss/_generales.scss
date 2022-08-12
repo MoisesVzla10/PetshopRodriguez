@@ -1,0 +1,36 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+   
+   body{
+       display: flex;
+       flex-direction: column;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: large;
+       position: relative;
+       min-height:100vh;
+       background-color:$fondo-body;
+   }
+   
+
+a{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color:white;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+    
+}
+
+p{
+    font-size: x-large;
+    font-style: oblique;
+    margin: 2rem 1.5rem;
+    color:$color-parrafo;
+}

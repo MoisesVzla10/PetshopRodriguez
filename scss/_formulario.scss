@@ -1,0 +1,42 @@
+/* Formulario */
+   
+#form{
+       
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: darkgray;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+
+}
+
+.form-tittle{
+
+    font-size: 25px;
+    margin-bottom: 1rem;
+    
+}
+
+.inputs{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: 1px solid darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 18px;
+}

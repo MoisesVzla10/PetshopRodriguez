@@ -1,0 +1,165 @@
+   /*contenido index*/
+   
+   .portada{
+    height: 75%;
+    width: 70%;
+    border-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-bottom: 5rem;
+}
+
+.main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+
+.main-content{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.index-tittle{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.section{
+    text-align: center;
+    margin:2rem;
+   
+}
+
+.main-tittle{
+    font-size: 50px;
+    text-align:center;
+    margin: 2rem;
+}
+
+.p-contact{
+    text-decoration:underline;
+    color: white;
+}
+
+
+   /* html gatos */
+   
+#cat-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+}
+
+#carouselExampleControls{
+background-color: pink;
+border: 2px solid black;
+width: 70%;
+margin: auto;
+padding: 3rem
+}
+
+.carousel-inner{
+text-align: center;
+overflow: hidden;
+width: 100%;
+
+}
+
+.t-carousel{
+    margin:1rem;
+}
+.p-carousel{
+    color: black;
+    margin-top: auto;
+    
+}
+
+#purinas{
+    margin:auto;
+    width: auto;
+    height:500px;
+
+}
+
+/* html perros */
+
+#dog-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.photos-dog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.dogfood-tittles{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.dogpicture:hover{
+    height: 75%;
+    width: 75%;
+}
+
+.dogpicture{
+    height: 70%;
+    width: 70%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid  black;
+    border-right: 2px solid black;
+    padding: 5px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+    
+
+/*Servicios Mascota */
+ 
+#services-tittle{
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    padding: 1rem;
+
+}
+
+.services{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.services-pic{
+    border-radius: 15px;
+    height: 80%;
+    width: 80%;
+    margin-left: 5rem;
+}
